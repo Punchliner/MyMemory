@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AF003F932600C06B00E014FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF003F922600C06B00E014FA /* AppDelegate.swift */; };
 		AF003F952600C06B00E014FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF003F942600C06B00E014FA /* SceneDelegate.swift */; };
-		AF003F972600C06B00E014FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF003F962600C06B00E014FA /* ViewController.swift */; };
 		AF003F9A2600C06B00E014FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF003F982600C06B00E014FA /* Main.storyboard */; };
 		AF003F9D2600C06B00E014FA /* MyMemory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF003F9B2600C06B00E014FA /* MyMemory.xcdatamodeld */; };
 		AF003F9F2600C07400E014FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF003F9E2600C07400E014FA /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		AF003F8F2600C06B00E014FA /* MyMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF003F922600C06B00E014FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF003F942600C06B00E014FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF003F962600C06B00E014FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF003F992600C06B00E014FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF003F9C2600C06B00E014FA /* MyMemory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMemory.xcdatamodel; sourceTree = "<group>"; };
 		AF003F9E2600C07400E014FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			children = (
 				AF003F922600C06B00E014FA /* AppDelegate.swift */,
 				AF003F942600C06B00E014FA /* SceneDelegate.swift */,
-				AF003F962600C06B00E014FA /* ViewController.swift */,
 				AF003F982600C06B00E014FA /* Main.storyboard */,
 				AF003F9E2600C07400E014FA /* Assets.xcassets */,
 				AF003FA02600C07400E014FA /* LaunchScreen.storyboard */,
@@ -141,7 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF003F9D2600C06B00E014FA /* MyMemory.xcdatamodeld in Sources */,
-				AF003F972600C06B00E014FA /* ViewController.swift in Sources */,
 				AF003F932600C06B00E014FA /* AppDelegate.swift in Sources */,
 				AF003F952600C06B00E014FA /* SceneDelegate.swift in Sources */,
 			);
@@ -299,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Duncan.MyMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,7 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Duncan.MyMemory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
